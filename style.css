@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 15px;
+    min-width: 500px;
+  }
+  
+  .input-field {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .answer-box {
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 10px;
+    min-height: 50px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .keyword-highlight {
+    background-color: limegreen;
+  }
+  
+  .missing-keywords {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
